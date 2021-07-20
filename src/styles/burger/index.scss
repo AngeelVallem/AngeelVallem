@@ -1,0 +1,9 @@
+.burger {
+	cursor: pointer;
+
+	&:hover {
+
+		transform: rotate(-0.02turn);
+
+	}
+}
