@@ -1,0 +1,82 @@
+.contact-container {
+	height: 50vh;
+	font-family: 'Yomogi', cursive !important;
+	position: relative;
+	margin-top: 10rem;
+
+	.emails-down {
+		position: absolute;
+		top: -240px;
+		left: 75%;
+
+		&:hover {
+			transform: rotate(-0.02turn);
+		}
+	}
+
+	.thanks {
+		width: 200px;
+
+		.underline {
+			background-color: #EBEC00 !important;
+		}
+
+		.lineline {
+			text-decoration: underline !important;
+		}
+	}
+
+	.container-form {
+		width: 20rem;
+
+		.email {
+			text-decoration: none;
+			color: #000;
+
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+
+		.formi {
+
+			.h-input {
+				font-size: 1.5rem;
+			}
+
+			border: none;
+
+			.invalid {
+					border: 2px solid rgb(240, 93, 93);
+
+			}
+
+			.focus-inputs {
+
+
+				&:focus {
+					border: 2px solid #000;
+
+					border-color: #000;
+					box-shadow: none !important;
+				}
+			}
+
+			.button-form {
+				border: 2px solid #000;
+				border-radius: 3px;
+				animation-name: button;
+				padding: 15px 4px;
+
+				&:hover {
+
+					color: #fff;
+					background-color: #000 !important;
+
+				}
+			}
+		}
+	}
+}

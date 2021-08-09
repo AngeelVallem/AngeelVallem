@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+.about-container{
+	display: flex;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	margin: 5rem;
+
+	.about-text{
+		width: 20rem;
+		text-align: center;
+
+		.button-pdf {
+			border: 2px solid #000;
+			border-radius: 3px;
+			animation-name: button;
+			padding:4px;
+			font-family: 'Yomogi', cursive !important;
+		
+			&:hover {
+		
+				color: #fff;
+				background-color: #000 !important;
+		
+			}
+		
+			.underline{
+				background-color: #EBEC00;
+			}
+		}
+
+		.links{
+			text-decoration: none;
+			color: #000;
+			font-weight: bolder;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			&:hover{
+				background-color: #EBEC00;
+			}
+		}
+	}
+}

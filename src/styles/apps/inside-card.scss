@@ -1,0 +1,26 @@
+.card{
+	position: relative;
+	width: 15rem !important;
+	height: 15rem !important;
+	color: #000;
+	margin: 1rem;
+	transition-duration: 1s;
+	border: transparent;
+	z-index: 9999;
+	&:hover{
+		transform: scale(1.1,1.1);
+	
+	}
+
+	.inside-card{
+		color: #000;
+		position: absolute;
+		top:	25px;
+		left: 27px;
+		z-index: -1;
+	}
+
+
+
+}
+

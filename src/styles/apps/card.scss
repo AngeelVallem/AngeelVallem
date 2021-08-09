@@ -1,0 +1,46 @@
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.app {
+	margin: 1rem;
+	z-index: -3;
+}
+
+.sub-text {
+	text-decoration: none;
+	color: #000;
+	font-size: 50px;
+	font-weight: bold;
+
+	&:hover {
+		cursor: pointer;
+		background-color: #EBEC00;
+		font-weight: bold;
+		color: #000;
+	}
+}
+
+
+.no-decoration {
+	text-decoration: none;
+	color: #000;
+}
+
+.hero-i {
+	cursor: pointer;
+	border-bottom: 3px solid transparent;
+	padding: 5px;
+	color: #000;
+
+
+	&:hover {
+		border-bottom: 3px solid #000;
+
+	}
+}
+
+.info-card {
+	margin: 0 3rem;
+}
